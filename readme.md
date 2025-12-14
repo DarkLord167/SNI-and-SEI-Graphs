@@ -38,11 +38,11 @@ Stepwise Inhomogeneous graphs are a special class of bipartite graphs where the 
 
 ### SNI Graphs
 - Stepwise **node-based** inhomogeneity
-- Degree difference between adjacent nodes ≤ 1
+- Degree difference between adjacent nodes $≤$ 1
 
 ### SEI Graphs
 - Stepwise **edge-based** inhomogeneity
-- Degree difference between adjacent edges ≤ 1
+- Degree difference between adjacent edges $≤$ 1
 
 Both graph families are bipartite and have zero determinant for their adjacency matrices.
 
@@ -64,14 +64,14 @@ Fragility is measured using the **spectral instability** of the adjacency matrix
 ### 3. Resilience Analysis
 Resilience is evaluated using the **Giant Component (GC)** concept:
 
-\[ G(q) = \frac{N_G}{N} \]
+\[ G(q) = $\frac{N_G}{N}$ \]
 
 Where:
 - \( q \) = fraction of removed nodes
-- \( N_G \) = size of giant component
+- \( $N_G$ \) = size of giant component
 - \( N \) = original network size
 
-The critical threshold \( q_c \) is defined where the network becomes disconnected.
+The critical threshold \( $q_c$ \) is defined where the network becomes disconnected.
 
 
 ## Failure & Attack Models
@@ -80,8 +80,8 @@ The critical threshold \( q_c \) is defined where the network becomes disconnect
 
 Network degradation is evaluated over multiple attack steps:
 
-- Fragility increases: \( F(t+1) \ge F(t) \)
-- Resilience decreases: \( R(t+1) < R(t) \)
+- Fragility increases: \( F(t+1) $\ge$ F(t) \)
+- Resilience decreases: \( R(t+1) $<$ R(t) \)
 
 
 ## Monte Carlo Simulation
@@ -114,14 +114,9 @@ The fitted polynomial models describe the nonlinear relationship between robustn
 └── readme.md
 ```
 
-Simulation parameters (network size, attack type, p-values) can be configured inside the code.
+**Simulation parameters (network size, attack type, p-values) can be configured inside the code.**
 
 
-## 📊 Expected Outputs
-- SNI vs SEI comparison plots
-- Fragility vs resilience curves
-- Polynomial equations for each network size and probability
-- Confidence intervals from Monte Carlo simulations
 
 
 
