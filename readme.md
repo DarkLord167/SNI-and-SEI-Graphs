@@ -108,7 +108,7 @@ The fitted polynomial models describe the nonlinear relationship between robustn
 - **Scikit-learn** (optional) – Polynomial fitting
 
 
-## 📁 Project Structure
+## Project Structure
 ```text
 ├── src/                # SNI & SEI graph generators
 └── readme.md
